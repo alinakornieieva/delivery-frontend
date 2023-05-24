@@ -1,0 +1,32 @@
+@import '../../variables';
+
+.error{
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    color: rgb(147, 16, 16);
+}
+
+.homepage{
+    .btns{
+        display: flex;
+        margin-bottom: 20px;
+        button{
+            margin-right: 5px;
+        }
+    }
+    .card-item{
+        .price{
+            font-size: 18px;
+            opacity: 0.8;
+            margin-right: 30px;
+        }
+        .descr{
+            margin: 10px 0 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+        }
+    }
+}

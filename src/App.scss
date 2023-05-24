@@ -1,0 +1,33 @@
+@import "~bootstrap/scss/bootstrap";
+@import './variables';
+@import './mixin';
+
+.app {
+  padding: 0 20px;
+}
+
+.btn{
+  @include btn($color_2, #000000);
+}
+
+.active{
+  @include btn($color_1, #fff);
+}
+
+.img-div{
+  text-align: center;
+}
+  
+.name{
+  margin-top: 8px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+img{
+  max-width: 300px;
+  border-radius: 3px;
+  box-shadow: $box_shadow_1;
+}

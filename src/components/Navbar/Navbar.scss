@@ -1,0 +1,19 @@
+@import '../../variables';
+
+.navbar-comp{
+    background-color: $color_1;
+    padding: 20px;
+    margin-bottom: 20px;
+    a{
+        text-decoration: none;
+        color: #fff;
+        margin-right: 15px;
+        font-size: 20px;
+    }
+    a:hover{
+        color: #fff;
+    }
+    .active{
+        font-weight: 600;
+    }
+}
